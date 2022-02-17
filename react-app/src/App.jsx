@@ -1,10 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const App = () => {
-  return (
-    <> 
-    </>
-  )
-}
+  return <div data-cy="header">Course List</div>;
+};
 
-export default App
+export default App;
