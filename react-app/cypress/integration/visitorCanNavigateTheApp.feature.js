@@ -5,6 +5,6 @@ describe("Visitor can navigate the application", () => {
   });
 
   it("is expected to see header course list", () => {
-    cy.get("[data-cy=header]").should("contain", "Course List");
+    cy.get("[data-cy=header]").should("contain", "Course list");
   });
 });

@@ -1,7 +1,8 @@
 import React from "react";
+import DisplayHeadline from "./components/DisplayHeadline";
 
 const App = () => {
-  return <div data-cy="header">Course List</div>;
+  return <DisplayHeadline />;
 };
 
 export default App;
